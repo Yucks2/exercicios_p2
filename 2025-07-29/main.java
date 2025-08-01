@@ -21,8 +21,6 @@ public class main
 
 	novoproduto.informacoes();
 
-	System.out.print("----- Realizar entrada no estoque -----\n");
-
 	System.out.print("Realizar entrada no estoque: ");
 	int aumentar = entrada.nextInt();
 	novoproduto.Adicionar_estoque(aumentar);
